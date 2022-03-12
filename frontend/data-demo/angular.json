@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "projects": {
+    "core": "libs/core",
+    "core-data-access-lookup": "libs/core/data-access-lookup",
+    "data-demo": "apps/data-demo",
+    "data-demo-e2e": "apps/data-demo-e2e",
+    "example-app": "apps/example-app",
+    "example-app-e2e": "apps/example-app-e2e",
+    "shell": "apps/shell",
+    "shell-e2e": "apps/shell-e2e"
+  }
+}

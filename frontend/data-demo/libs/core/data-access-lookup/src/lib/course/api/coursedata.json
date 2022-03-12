@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "seqNo": 1,
+        "url": "test1",
+        "iconUrl": "test1icon1",
+        "courseListIcon": "test1loc1",
+        "description": "ABCDEFGHIJKLMNOPQRSTUV",
+        "longDescription": "ABCDEFGHIJKLMNOPQRST",
+        "category": "a",
+        "lessonsCount": 4,
+        "promo": true
+      },
+      {
+        "id": 2,
+        "seqNo": 2,
+        "url": "test2",
+        "iconUrl": "test1icon2",
+        "courseListIcon": "test1loc2",
+        "description": "ABCDEFGHIJKLMNOPQRSTUV",
+        "longDescription": "ABCDEFGHIJKLMNOPQRST",
+        "category": "a",
+        "lessonsCount": 4,
+        "promo": true
+      }
+]

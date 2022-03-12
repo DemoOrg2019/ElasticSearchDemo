@@ -1,0 +1,15 @@
+<div style="margin-top:20px">
+    <input type="text" (keyup)="search($event)" placeholder="enter code" class="input">
+</div>
+<br>
+<br>
+<div *ngFor="let mDMSearchModelSource of mDMSearchModelSources" style="margin-top:20px">
+  <div>
+      <label>#:  {{mDMSearchModelSource.id}} | {{mDMSearchModelSource.code}} | {{mDMSearchModelSource.name}}  </label>
+  </div>
+  <br>      
+</div>
+  
+    <!-- <div *ngIf="mDMSearchModelSources?.length < 1" style="margin-top:20px">
+      <p>Not found!</p>
+    </div> -->

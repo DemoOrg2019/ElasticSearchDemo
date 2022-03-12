@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/core/data-access-lookup",
+  "sourceRoot": "libs/core/data-access-lookup/src",
+  "prefix": "data-demo",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/core/data-access-lookup"],
+      "options": {
+        "jestConfig": "libs/core/data-access-lookup/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/core/data-access-lookup/src/**/*.ts",
+          "libs/core/data-access-lookup/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

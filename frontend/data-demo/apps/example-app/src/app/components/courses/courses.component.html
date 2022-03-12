@@ -1,0 +1,25 @@
+<div>
+    <h2>List of Courses</h2>
+    <div class="container">
+        <div class="row">
+          <table class="table table-dark table-striped m-3">
+            <thead>
+              <tr>
+                <th scope="col">Course Id</th>
+                <th scope="col">URL</th>                
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr >
+                <th scope="row">1</th>
+                <td>test</td>                
+              </tr> -->
+              <tr *ngFor="let item of allCourses$ | async">
+                <th scope="row">{{item.id}}</th>
+                <td>{{item.url}}</td>                
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+</div>
